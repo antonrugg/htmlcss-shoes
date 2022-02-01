@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+}
+
+.nav-bar{
+    height: 10vh;
+    width: 100%;
+    background-color: red;
+    position: fixed;
+}
+
+.nav-bar > ul{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    list-style-type: none;
+    
+    
+}
+
+.nav-bar li{
+    background-color: white;
+    border-radius: 50%;
+    padding: 0.7rem;
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+li > a{
+    text-decoration: none;
+}
+
+.promo{
+    height: 100vh;
+    width: 100%;
+}
+
+#promo1{
+    background-color: red;
+}
+
+#promo2{
+    background-color: green;
+}
+
+#promo3{
+    background-color: yellow;
+}
+
+
+
