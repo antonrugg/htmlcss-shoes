@@ -5,13 +5,14 @@
 }
 
 body{
-    
+    font-family: 'Rubik Mono One', sans-serif;
+    overflow: hidden;
 }
 
 .nav-bar{
     height: 10vh;
     width: 100%;
-    background-color: red;
+    background-color: rgba(0, 0, 0, 0);
     position: fixed;
 }
 
@@ -27,17 +28,20 @@ body{
 .nav-bar li{
     background-color: white;
     border-radius: 50%;
-    padding: 0.7rem;
+    padding: 1rem;
     display: inline-block;
-    margin-right: 1rem;
+    margin-right: 2rem;
 }
 
 li > a{
     text-decoration: none;
+    font-size: 16px;
+    color: black;
+    font-weight: normal;
 }
 
 .promo{
-    height: 100vh;
+    height: 110vh;
     width: 100%;
 }
 
